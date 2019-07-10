@@ -1,0 +1,338 @@
+body {
+	font-family: Helvetica;
+}
+
+#lan-nav {
+	background-color: #000;
+	height: 50px;
+}
+
+.btn:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+#lan-slid {
+	background-color: #000;
+}
+
+.header .navbar .collapse ul li {
+	font-size: 35px;
+	margin: 0;
+}
+.nav-link {
+	font-size: 21px;
+	margin: 0 35px 0 0;
+}
+
+.header .navbar .collapse ul li a:hover {
+	color: #006c0d;
+}
+
+#active {
+	color: #006c0d;
+}
+
+#navbarDropdown {
+	font-size: 15px;
+}
+
+.dropdown-menu {
+	background-color: #006c0d;
+}
+
+.dropdown-menu a {
+	background-color: #006c0d;
+	color: #fff;
+}
+
+.form-inline input {
+	width: 200px;
+	height: 30px;
+}
+
+.form-inline button {
+	height: 30px;
+}
+/*---------------------
+	SLider section
+----------------------*/
+#logoslider {
+	width: 75%;
+}
+
+
+.carousel-caption{
+	margin: 0 0 15% 0;
+}
+
+.acrylics-slider {
+	margin: 100px 0 0 12%;
+	width: 75%;
+	align: center;
+}
+
+.blog {
+	text-align: center;
+	width: 55%;
+	margin: 100px 0 0 23%;
+}
+
+.prod-name{
+	font-size: 65px;
+}
+
+.btn-read1 {
+	color: #fff;
+}
+
+#btn-read1 {
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+.carousel-indicators{
+	margin: 20px 0 0 0;
+}
+
+.back-to-top {
+	position: fixed;
+	bottom: 0;
+	right: 2em;
+	text-decoration-line: none;
+	text-decoration-style: solid;
+	text-decoration-color: currentcolor;
+	padding: 0.5em;
+	z-index: 99;
+}
+
+/*---------------------
+	product section
+----------------------*/
+
+#product {
+	color: #000;
+}
+
+#pro-sli {
+	width: 100%;
+	margin: 40px 10px 40px 10px;
+	padding: 0;
+}
+
+.card-img-overlay {
+	padding: 20% 0 0 0;
+	color: #000;
+}
+
+.card-img-overlay:hover {
+	background-color: #80ff00;
+	opacity: 0.5;
+	color: #fff;
+}
+
+.card-title2 {
+	opacity: 1.0;
+	color: #fff;
+	font-size: 30px;
+}
+
+.card-img-overlay #btn-read1 {
+	opacity: 1.0 !important;
+	color: #000 !important;
+	border: 2px solid #000 !important;
+}
+
+.itf-logo {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 43%;
+}
+
+.itf-logo img {
+	width: 250px;
+}
+
+/*---------------------
+	About section
+----------------------*/
+
+.about {
+	margin: 100px 50px 50px 50px;
+	border: none;
+}
+
+.card {
+	border: none;
+	font-family: Helvetica;
+}
+
+.card-title{
+	text-transform: capitalize;
+	margin: 0 0 0 10%;
+	font-size: 40px;
+}
+
+.card-text{
+	margin: 0 60px 0 10%;
+}
+
+.carousel-inner {
+	margin: 6% 0 0 0;
+}
+
+
+
+/*---------------------
+	Contact section
+----------------------*/
+
+#contact {
+	padding: 100px 0 0 0;
+	background-color: #000;
+	color: #fff;
+}
+.input-field {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    border: 1px solid #ececec;
+    border-radius: 0;
+    box-shadow: none;
+    color: #818181;
+    font-size: 16px;
+    height: 50px;
+}
+
+textarea.form-control {
+    width: 100%;
+    height: 165px;
+}
+
+#submit {
+  width: 120px;
+  padding: 10px;
+  background-color: #53b44b;
+  color: #fff !important;
+  border: none;
+}
+
+#submit:hover {
+	background-color: #267e1f;
+  color: #fff;
+}
+
+#submit2 {
+  width: 250px;
+  padding: 10px;
+  background-color: #53b44b;
+  color: #fff !important;
+  border: none;
+}
+
+#submit2 a {
+  color: #fff !important;
+}
+
+#submit2:hover {
+	background-color: #267e1f;
+  color: #fff;
+}
+
+#submit:before {
+  background-color: #0A85BB;
+}
+
+#submit.btn-effect:after {
+  background: #2E2E2E;
+}
+
+.sec-title h2 {
+	color: #fff;
+	
+}
+.contact-details h3 {
+	color: #fff;
+    border-bottom: 1px solid #008ecc;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.contact-details p {
+    line-height: 30px;
+}
+.contact-details p img {
+    width: 25px;
+	height: 25px;
+	margin: 0 10px 0 0;
+}
+
+.contact-details p i {
+    margin-right: 10px;
+}
+
+.contact-details span {
+    display: block;
+    margin-left: 24px;
+}
+
+.map-area {
+	height: 600px;
+}
+
+
+
+/*---------------------
+	Footer section
+----------------------*/
+#footer {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.footer-section {
+	background: #000;
+	color: #fff;
+	margin: 0;
+	padding-bottom: 40px;
+	padding-top: 100px;
+}
+
+.footer-section h2 {
+	color: #fff;
+	font-weight: 400;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.footer-section p {
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.footer-section .social a {
+	color: #fff;
+}
+
+.footer-section .social a:last-child {
+	margin-right: 0;
+}
+
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon img {
+    width: 50px;
+	height: 50px;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
